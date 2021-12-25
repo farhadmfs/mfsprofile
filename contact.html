@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Md. Farhad Sikder</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+</head>
+
+<body>
+    <input type="checkbox" id="check">
+    <label for="check">
+        <i class="fa fa-bars" aria-hidden="true" id="btn"></i>
+     <i class="fa fa-times" aria-hidden="true" id="cancel"></i>
+      
+    </label>
+    <div class="sidebar">
+        <div class="header-div">
+            <img src="image/pro-01.jpeg" width="200px" height="200px">
+      <header>FARHAD</header>
+      </div>
+      <a href="index.html" >
+        <i class="fa fa-home" aria-hidden="true"></i>
+        <span>Home</span>
+      </a>
+      <a href="about.html" >
+        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+        <span>About Me</span>
+      </a>
+      <a href="resume.html" >
+        <i class="fa fa-address-card-o" aria-hidden="true"></i>
+        <span>Resume</span>
+      </a>
+      <a href="service.html" >
+        <i class="fa fa-handshake-o" aria-hidden="true"></i>
+        <span>Services</span>
+      </a>
+      
+      <a href="#contactid" class="active">
+        <i class="fa fa-phone" aria-hidden="true"></i>
+        <span>Contact</span>
+      </a>
+      <a class="copyright" href="#">
+          <p>© 2021 Farhad</p>
+      </a>      
+    </div>
+
+<!-- -------------------------Contact start ------------------ -->
+
+<section class="contact-section" id="contactid">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-10 text-center">
+                <div class="wrapper">
+                    <div class="blackpink">Contact</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-10 get-in-touch">
+                <img class="get-devider" src="image/helpline.png">
+                <h5 class="get-touch">Get In Touch</h5>
+                <div class="email">
+                    <img src="image/email.png">
+                    <h6>mdfarhadsikder5@gmail.com</h6>
+                </div>
+                <div class="email">
+                    <img src="image/whatsapp.png">
+                    <h6>+8801746272176</h6>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-10 contact-form">
+                <div class="input-name">
+                    <input type="text" class="form-control" placeholder="Name" id="name">
+                </div>
+                <div class="email">
+                    <input type="email" class="form-control" placeholder="Email" id="email">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" rows="4" placeholder="Enter Your Message" required id="comment"></textarea>
+                </div>
+                <div class="btn submet">
+                    <a href="#contactid">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Submet</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-10 col-md-10 col-10 offset-lg-1 offset-md-1 contact-icon">
+                <a href="https://web.facebook.com/mdfarhad.sikdermfs" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/md-farhad-sikder-7b8150223?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BqCVqZPQISQemPr4CL1URew%3D%3D"target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="https://www.fiverr.com/mdfarhad_sikder"target="_blank"><img src="image/fiverr.png" height="15px" width="15px"></a>
+            </div>
+        </div>
+</section>
+<!-- -------------------------Contact end ------------------ -->
+
+</body>
+
+</script>
+<script src="js/style.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+    <script>
+       // Get the el
+let topBtn = document.querySelector(".top-btn");
+
+// On Click, Scroll to the page's top, replace 'smooth' with 'instant' if you don't want smooth scrolling
+topBtn.onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
+
+// On scroll, Show/Hide the btn with animation
+window.onscroll = () => window.scrollY > 500 ? topBtn.style.opacity = 1 : topBtn.style.opacity = 0
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="js/jquery.ripples-min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('section').ripples({
+                dropRadius:20,
+                perturbance:0.05,
+            });
+        })
+    </script>
+<script src="js/style.js"></script>
+</html>
